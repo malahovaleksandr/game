@@ -61,8 +61,7 @@
     font-weight: 700;
     font-size: 32px;
     font-family: 'FuturaPT', Arial, sans-serif; 
-    font-size: 60px;
-    line-height: 1.2; 
+    line-height: 1.2;
     color: var(--color-primary); 
     text-align: center;
 }
@@ -70,8 +69,8 @@
 #bodyBlock #allrecords .mainText,
 #bodyBlock #allrecords  .tn-atom.mainText {
     font-weight: 700;
-    font-family: 'FuturaPT', Arial, sans-serif; 
-    font-size: 48px;
+    font-family: 'FuturaPT', Arial, sans-serif;
+    font-size: 60px;
     line-height: 1.2; 
     color: var(--color-secondary); 
     text-align: center;
@@ -133,4 +132,63 @@
 .textBlockN1 {
     background-color: rgba(128, 128, 128, 0.5);
     padding: 10px;
+}
+
+
+.blockTextReceive {
+    background-color: #4F4944;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 450px;
+    width: 100%;
+    text-align: left;
+    height: 170px;
+}
+.blockTextReceive p,
+.tn-atom .blockTextReceive p{
+    font-size: 22px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.blockTextSectionTitle,
+#bodyBlock #allrecords .t396 .tn-atom .blockTextSectionTitle {
+    font-weight: 700;
+    font-family: 'FuturaPT', Arial, sans-serif;
+    font-size: 40px;
+    line-height: 1.2;
+    color: var(--color-secondary);
+    text-align: center;
+}
+
+.wrapSlider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    height: 100%;
+    padding-top: 70px;
+}
+.sliderSlick{
+    width: 80%;
+    position: relative;
+    z-index: 2;
+}
+.oneSlide{
+    width: 90%;
+    height: auto;
+    position: relative;
+}
+.oneSlide img {
+    width: 100%;
+    height: auto;
+}
+.oneSlide .oneSlideTitle {
+    position: absolute;
+    top:10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
 }
