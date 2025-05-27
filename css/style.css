@@ -66,6 +66,7 @@ div.colorDark,
 #bodyBlock #allrecords   .tn-atom.colorDark{
     color: var(--color-black);
 }
+
 .middleText,
 #bodyBlock #allrecords .middleText,
 #bodyBlock #allrecords  .tn-atom.middleText {
@@ -86,6 +87,7 @@ div.colorDark,
     color: var(--color-secondary); 
     text-align: center;
 }
+
 .textSmall,
 #bodyBlock #allrecords .textSmall,
 #bodyBlock #allrecords  .tn-atom.textSmall {
@@ -96,19 +98,45 @@ div.colorDark,
     border-style: solid;
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 959px) {
+    .mainText,
+    #bodyBlock #allrecords .mainText,
+    #bodyBlock #allrecords  .tn-atom.mainText {
+        font-size: 40px;
+    }
+
     .middleText,
     #bodyBlock #allrecords .middleText,
     #bodyBlock #allrecords  .tn-atom.middleText {
-        font-weight: 700;
-        font-size: 22px;
-        font-family: 'FuturaPT', Arial, sans-serif;
-        line-height: 1.2;
-        color: var(--color-primary);
-        text-align: center;
+        font-size: 26px;
     }
 }
 
+@media screen and (max-width: 639px) {
+    .mainText,
+    #bodyBlock #allrecords .mainText,
+    #bodyBlock #allrecords  .tn-atom.mainText {
+        font-size: 34px;
+    }
+    .middleText,
+    #bodyBlock #allrecords .middleText,
+    #bodyBlock #allrecords  .tn-atom.middleText {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 479px) {
+
+    .mainText,
+    #bodyBlock #allrecords .mainText,
+    #bodyBlock #allrecords  .tn-atom.mainText {
+        font-size: 30px;
+    }
+    .middleText,
+    #bodyBlock #allrecords .middleText,
+    #bodyBlock #allrecords  .tn-atom.middleText {
+        font-size: 22px;
+    }
+}
 
 .mainImagesecond {
     max-width: 500px;
@@ -178,6 +206,12 @@ div.colorDark,
     font-size: 22px;
     text-align: left;
     font-weight: 400;
+}
+
+@media screen and (max-width: 479px) {
+    .blockTextReceive {
+        height: 300px;
+    }
 }
 
 .blockTextSectionTitle,
