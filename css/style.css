@@ -328,7 +328,7 @@ div.colorDark,
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-
+    position: relative;
     font-weight: 400;
     font-family: 'FuturaPT', Arial, sans-serif;
     font-size: 30px;
@@ -423,10 +423,16 @@ div.colorDark,
     justify-content: center;     /* Center horizontally */
     align-items: center;         /* Center vertically (if needed) */
      width: 100%;
+    z-index: 50;
 margin-bottom: 15px;
     margin-top: 15px;
+    position: relative;
 }
-
+.parentDiv a.btnBuy{
+    position: absolute;
+    top: 10px;
+    z-index: 1000;
+}
 
 
 .btnBuy ,
