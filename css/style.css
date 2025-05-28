@@ -394,3 +394,25 @@ div.colorDark,
 .cardTarifbonus a{
     color: var(--color-third);
 }
+@media screen and (max-width: 479px) {
+    .cardTarif .propose {
+        font-size: 16px;
+        padding: 3px;
+        border-radius: 10px;
+    }
+    .cardTarif .points {
+        line-height: 1.1;
+    }
+    .cardTarif .bonus {
+        font-size: 17px;
+    }
+    .cardTarif .bonus em{
+        font-size: 21px;
+    }
+
+    .cardTarifbonus{
+        width: 300px;
+        padding: 10px;
+        border-radius:15px;
+    }
+}

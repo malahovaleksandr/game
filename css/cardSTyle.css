@@ -56,7 +56,7 @@
 
 @media screen and (max-width: 479px) {
     #rec716854652 .t396__artboard, #rec716854652 .t396__filter, #rec716854652 .t396__carrier {
-        height: 1800px;
+        height: 2300px;
     }
 
     #rec716854652 .t396__filter {
@@ -771,7 +771,8 @@
     border-style: solid;
 }
 
-#rec716854652 .tn-elem[data-elem-id="1710076495563"] .tn-atom__img {
+#rec716854652  .tn-atom__img {
+    height: 100%;
 }
 
 @media screen and (max-width: 1199px) {
@@ -788,7 +789,7 @@
         top: 126px;
         left: calc(50% - 155px + 0px);
         width: 246px;
-        height: auto;
+        height: 620px;
     }
 }
 
@@ -945,7 +946,7 @@
         top: 620px;
         left: calc(50% - 160px + 37px);
         width: 246px;
-        height: auto;
+        height: 620px;
     }
 }
 
@@ -1102,7 +1103,7 @@
         top: 1113px;
         left: calc(50% - 160px + 37px);
         width: 245px;
-        height: auto;
+        height: 620px;
     }
 }
 
