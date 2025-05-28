@@ -56,9 +56,10 @@
     /*border-style: solid;*/
 }
 
+.colorLigth,
 #bodyBlock #allrecords .colorLigth,
  #bodyBlock #allrecords   .tn-atom.colorLigth{
-    color: var(--color-white);
+    color: var(--color-white) !important;
 }
 div.colorDark,
 .colorDark,
