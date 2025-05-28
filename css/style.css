@@ -417,3 +417,35 @@ div.colorDark,
         border-radius:15px;
     }
 }
+
+.parentDiv {
+    display: flex;               /* Enable flexbox */
+    justify-content: center;     /* Center horizontally */
+    align-items: center;         /* Center vertically (if needed) */
+     width: 100%;
+margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+
+
+.btnBuy ,
+#allrecords a.btnBuy ,
+#allrecords .btnBuy
+{
+    width: 100px;
+    text-align: center;
+    background-color: var(--color-offer);
+    color: var(--color-white);
+    font-family: 'FuturaPT', Arial, sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: var(--color-third);
+}
