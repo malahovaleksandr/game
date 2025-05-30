@@ -224,6 +224,12 @@ div.colorDark,
     color: var(--color-black);
     text-align: center;
 }
+@media screen and (max-width: 479px) {
+    .blockTextSectionTitle,
+    #bodyBlock #allrecords .t396 .tn-atom .blockTextSectionTitle {
+        font-size: 22px;
+    }
+}
 
 .wrapSlider {
     display: flex;
