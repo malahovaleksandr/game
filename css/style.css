@@ -313,16 +313,35 @@ div.colorDark,
     min-height: 600px;
     padding: 20px;
     background-color: var(--color-secondary);
-    background-image: url("../images/background_sect1.png");
+    /*background-image: url("../images/background_sect1.png");*/
     background-size: cover;
 }
+
 .ligthSection div,
 .ligthSection .tn-atom div
 {
     color: var(--color-black);
-
 }
-
+.cardAttention{
+    width: 90%;
+    background-color: #212121;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 5%;
+}
+.cardAttention .tn-atom .title,
+.ligthSection .tn-atom .cardAttention  .title {
+    font-size: 40px;
+    color: var(--color-third);
+    font-weight: 700;
+    text-align: center;
+}
+#bodyBlock #allrecords .ligthSection .tn-atom .cardAttention .text1 {
+    color: var(--color-primary);
+}
+#bodyBlock #allrecords .ligthSection .tn-atom .cardAttention .text2 {
+    color: var(--color-third);
+}
 .cardTarif{
     display: flex;
     justify-content: flex-start;
@@ -455,3 +474,11 @@ margin-bottom: 15px;
 .btn:hover {
     background-color: var(--color-third);
 }
+
+.aboutMeSections1{
+    /*background-color: var(--color-gray-transparent);*/
+    background-color: rgba(128, 128, 128, 0.7);
+    padding: 5px;
+}
+
+
