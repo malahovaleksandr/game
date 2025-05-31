@@ -138,6 +138,19 @@ div.colorDark,
         font-size: 22px;
     }
 }
+.firstSectionTitle{
+    font-weight: 700;
+    font-family: 'FuturaPT', Arial, sans-serif;
+    font-size: 60px;
+    line-height: 1.2;
+    color: var(--color-white);
+    text-align: left;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.firstSectionTitle l{
+    color: var(--color-secondary);
+}
 
 .mainImagesecond {
     max-width: 500px;
@@ -185,11 +198,16 @@ div.colorDark,
         font-size: 24px;
         padding: 30px 15px;
     }
+
+    .firstSectionTitle{
+        font-size: 40px;
+        line-height: 1.2;
+    }
 }
 
 .textBlockN1 {
     background-color: rgba(128, 128, 128, 0.5);
-    padding: 10px;
+    padding: 30px;
 }
 
 
@@ -208,6 +226,12 @@ div.colorDark,
     text-align: left;
     font-weight: 400;
 }
+.blockTextReceivetitle{
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--color-secondary);
+    text-align: center;
+}
 
 @media screen and (max-width: 479px) {
     .blockTextReceive {
@@ -219,10 +243,15 @@ div.colorDark,
 #bodyBlock #allrecords .t396 .tn-atom .blockTextSectionTitle {
     font-weight: 700;
     font-family: 'FuturaPT', Arial, sans-serif;
-    font-size: 40px;
+    font-size: 45px;
     line-height: 1.2;
     color: var(--color-black);
-    text-align: center;
+    text-align: left;
+    text-transform: uppercase;
+margin-bottom: 10px;
+}
+.blockTextSectionTitle l{
+    color: var(--color-secondary);
 }
 @media screen and (max-width: 479px) {
     .blockTextSectionTitle,
@@ -488,3 +517,6 @@ margin-bottom: 15px;
 }
 
 
+.logoSection{
+    opacity: 0.7;
+}
