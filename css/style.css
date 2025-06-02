@@ -253,6 +253,11 @@ margin-bottom: 10px;
 .blockTextSectionTitle l{
     color: var(--color-secondary);
 }
+.blockTextSectionTitle.colorDark.textCenter,
+#bodyBlock #allrecords .blockTextSectionTitle.colorDark.textCenter,
+.textCenter {
+    text-align: center;
+}
 @media screen and (max-width: 479px) {
     .blockTextSectionTitle,
     #bodyBlock #allrecords .t396 .tn-atom .blockTextSectionTitle {
@@ -301,23 +306,64 @@ margin-bottom: 10px;
     flex-direction: column;
     justify-content: flex-start;
     align-items: start;
-    border-radius: 10px;
+    border-radius: 20px;
     font-family: 'FuturaPT', Arial, sans-serif;
     line-height: 1.2;
     box-sizing: border-box;
     padding: 15px;
+    position: relative;
+    background-color: #5B554E;
 }
 .cardGame1 {
-    background-image:url('../images/Frame_26.png') ;
+    background-image:url('../images/frameIcon1.png') ;
+    height: 150px;
+    width: 150px;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .cardGame2 {
-    background-image:url('../images/Frame_21.png') ;
+    background-image:url('../images/frameIcon2.png');
+    height: 150px;
+    width: 150px;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .cardGame3 {
-    background-image:url('../images/Frame_25.png') ;
+    background-image:url('../images/frameIcon3.png') ;
+    height: 150px;
+    width: 150px;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .cardGame4 {
-    background-image:url('../images/Frame_27.png') ;
+    background-image:url('../images/frameIcon4.png') ;
+    height: 150px;
+    width: 150px;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width: 479px) {
+ .cardGame4, .cardGame1, .cardGame2, .cardGame3 {
+opacity: 0.2;
+ }
 }
 .cardPreview,
 .cardPrevilegios .cardPreview {
@@ -332,7 +378,7 @@ margin-bottom: 10px;
 .cardPrevilegios .cardTitle {
     color: var(--color-secondary);
     font-weight: 700;
-    font-size: 32px;
+    font-size: 31px;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -342,6 +388,9 @@ margin-bottom: 10px;
     font-weight: 400;
     font-size: 20px;
     text-align: left;
+    background-color: rgba(254, 186, 123, 0.3);
+    padding: 10px;
+    border-radius: 15px;
 }
 .ligthSection{
     box-sizing: border-box;
@@ -420,6 +469,7 @@ margin-bottom: 10px;
 }
 .cardTarif .price i{
     color: var(--color-worse);
+    text-decoration: line-through;
 }
 .cardTarif em{
     color: var(--color-offer);
@@ -441,12 +491,16 @@ margin-bottom: 10px;
 .cardTarifbonus h4 {
     font-size: 22px;
     text-align: center;
+    font-weight: 500;
     color: var(--color-third);
 }
 .cardTarifbonus em{
-    color: var(--color-offer);
+    color: var(--color-third);
 }
 .cardTarifbonus a{
+    color: var(--color-third);
+}
+.colorThird{
     color: var(--color-third);
 }
 @media screen and (max-width: 479px) {
@@ -479,7 +533,7 @@ margin-bottom: 10px;
      width: 100%;
     z-index: 50;
 margin-bottom: 15px;
-    margin-top: 15px;
+    margin-top: 5px;
     position: relative;
 }
 .parentDiv a.btnBuy{
@@ -495,7 +549,7 @@ margin-bottom: 15px;
 {
     width: 100px;
     text-align: center;
-    background-color: var(--color-offer);
+    background-color: var(--color-third);
     color: var(--color-white);
     font-family: 'FuturaPT', Arial, sans-serif;
     font-size: 18px;
