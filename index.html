@@ -42,8 +42,8 @@
           onerror="this.loaderr='y';">
     <link rel="stylesheet" type="text/css" href="./css/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="./css/slick/slick-theme.css"/>
-    <link rel="stylesheet" href="css/cardSTyle.css?ver=13" type="text/css" media="all">
-    <link rel="stylesheet" href="css/style.css?ver=13" type="text/css" media="all">
+    <link rel="stylesheet" href="css/cardSTyle.css?ver=14" type="text/css" media="all">
+    <link rel="stylesheet" href="css/style.css?ver=14" type="text/css" media="all">
     <script type="text/javascript">function t_onReady(func) {
         if (document.readyState != 'loading') {
             func();
@@ -145,6 +145,43 @@
     })();</script>
 </head>
 <body class="t-body" id="bodyBlock" style="margin:0;"> <!--allrecords-->
+<script type="text/javascript">
+    const imagesToLoad = [
+        './images/logoGame.png'
+    ];
+
+    let loadedImagesCount = 0;
+
+    function imageLoaded() {
+        loadedImagesCount++;
+        if (loadedImagesCount === imagesToLoad.length) {
+            const preloader = document.getElementById('preloader');
+            preloader.style.opacity = '0'; // Начинаем плавное исчезновение
+            setTimeout(() => {
+                preloader.style.display = 'none'; // Скрываем после завершения анимации
+                document.getElementById('content').style.display = 'block';
+            }, 1000); // Время совпадает с длительностью анимации
+        }
+    }
+
+    function preloadImages() {
+        imagesToLoad.forEach((image) => {
+            const img = new Image();
+            img.src = image;
+            img.onload = imageLoaded;
+            img.onerror = imageLoaded; // Учитываем ошибки загрузки
+        });
+    }
+
+    window.onload = () => {
+        preloadImages();
+    };
+
+</script>
+<div id="preloader">
+    <img src="./images/logoGame.png" alt="Логотип" />
+</div>
+
 <div id="allrecords" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="2705300"
      data-tilda-page-id="20741729" data-tilda-formskey="11b5cd3c86d34060a3aa5688c501aa9e" data-tilda-lazy="yes"
      data-tilda-root-zone="com" data-tilda-ts="y">
