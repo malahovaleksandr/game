@@ -82,10 +82,12 @@ div.colorDark,
 #bodyBlock #allrecords .mainText,
 #bodyBlock #allrecords  .tn-atom.mainText {
     font-weight: 700;
-    font-family: 'FuturaPT', Arial, sans-serif;
-    font-size: 60px;
-    line-height: 1.2; 
-    color: var(--color-secondary); 
+    /*font-family: 'FuturaPT', Arial, sans-serif;*/
+    font-family: 'Evolventa', sans-serif;
+    line-height: 1.4;
+    letter-spacing: -1px;
+    font-size: 59px;
+    color: var(--color-secondary);
     text-align: center;
 }
 
@@ -140,9 +142,11 @@ div.colorDark,
 }
 .firstSectionTitle{
     font-weight: 700;
-    font-family: 'FuturaPT', Arial, sans-serif;
-    font-size: 60px;
-    line-height: 1.2;
+    /*font-family: 'FuturaPT', Arial, sans-serif;*/
+    font-family: 'Evolventa', sans-serif;
+    font-size: 58px;
+    line-height: 1.4;
+    letter-spacing: -1px;
     color: var(--color-white);
     text-align: left;
     margin-bottom: 20px;
@@ -231,6 +235,7 @@ div.colorDark,
     font-weight: 700;
     color: var(--color-secondary);
     text-align: center;
+    font-family: 'Evolventa', sans-serif;
 }
 
 @media screen and (max-width: 479px) {
@@ -242,7 +247,8 @@ div.colorDark,
 .blockTextSectionTitle,
 #bodyBlock #allrecords .t396 .tn-atom .blockTextSectionTitle {
     font-weight: 700;
-    font-family: 'FuturaPT', Arial, sans-serif;
+    /*font-family: 'FuturaPT', Arial, sans-serif;*/
+    font-family: 'Evolventa', sans-serif;
     font-size: 45px;
     line-height: 1.2;
     color: var(--color-black);
@@ -313,6 +319,26 @@ margin-bottom: 10px;
     padding: 15px;
     position: relative;
     background-color: #5B554E;
+}
+.cardPrevilegios1 {
+    background-image:url('../images/card1.png');
+    height: auto;
+    width: 360px;
+}
+.cardPrevilegios2 {
+    background-image:url('../images/card2.png');
+    height: auto;
+    width: 360px;
+}
+.cardPrevilegios3 {
+    background-image:url('../images/card3.png');
+    height: auto;
+    width: 360px;
+}
+.cardPrevilegios4 {
+    background-image:url('../images/card4.png');
+    height: auto;
+    width: 360px;
 }
 .cardGame1 {
     background-image:url('../images/frameIcon1.png') ;
@@ -396,6 +422,7 @@ opacity: 0.2;
     box-sizing: border-box;
     min-height: 600px;
     padding: 20px;
+    padding-bottom: 0;
     background-color: var(--color-secondary);
     /*background-image: url("../images/background_sect1.png");*/
     background-size: cover;
@@ -407,11 +434,61 @@ opacity: 0.2;
     color: var(--color-black);
 }
 .cardAttention{
-    width: 90%;
-    background-color: #212121;
+    width: 100%;
+    box-sizing: border-box;
+    /*background-color: #212121;*/
     padding: 20px;
     border-radius: 20px;
-    margin-left: 5%;
+    /*margin-left: 5%;*/
+    position: relative;
+    padding-left: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    font-weight: 500;
+    font-size: 32px;
+    font-family: 'FuturaPT', Arial, sans-serif;
+    line-height: 1.2;
+    color: var(--color-primary);
+    text-align: center;
+}
+.cardAttentionMyPhoto{
+    /*background-image: url("../images/myAttention.png");*/
+    width: 350px;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.cardAttention .title{
+    font-size: 40px;
+    color: var(--color-third);
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Evolventa', sans-serif;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    z-index: 2;
+}
+.cardAttention .text1{
+    color: var(--color-white);
+    background-color: #4F4944;
+    margin-right: 100px;
+    min-width: 70%;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.cardAttention .text2{
+    color: var(--color-third);
+    background-color: #4F4944;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 100px;
 }
 .cardAttention .tn-atom .title,
 .ligthSection .tn-atom .cardAttention  .title {
@@ -420,11 +497,38 @@ opacity: 0.2;
     font-weight: 700;
     text-align: center;
 }
+@media screen and (max-width: 479px) {
+    .cardAttention {
+        padding: 10px;
+        padding-top: 300px;
+        font-size: 27px;
+    }
+    .cardAttention .title{
+        width: 300px;
+    }
+    .cardAttentionMyPhoto{
+        width: 300px;
+        height: auto;
+        position: absolute;
+        top: 0;
+        bottom: auto;
+    }
+    .cardAttention .text1{
+        margin-right: 0;
+    }
+    .cardAttention .text2{
+        margin-left: 0;
+    }
+    .cardAttention .text3{
+        margin-right: 0;
+    }
+}
+
 #bodyBlock #allrecords .ligthSection .tn-atom .cardAttention .text1 {
     color: var(--color-primary);
 }
-#bodyBlock #allrecords .ligthSection .tn-atom .cardAttention .text2 {
-    color: var(--color-third);
+#bodyBlock #allrecords .ligthSection .tn-atom .cardAttention .text2, .ligthColorBej {
+    color: var(--color-third) !important;
 }
 .cardTarif{
     display: flex;

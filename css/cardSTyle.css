@@ -2992,16 +2992,16 @@
 /*<!--  START     SECTION STEPS GAME-->*/
 
  #rec715919990 .t396__artboard {
-     height: 1230px;
+     height: 1270px;
      background-color: #ffffff;
  }
 
 #rec715919990 .t396__filter {
-    height: 1230px;
+    height: 1270px;
 }
 
 #rec715919990 .t396__carrier {
-    height: 1230px;
+    height: 1270px;
     background-position: center center;
     background-attachment: scroll;
     background-image: url('../images/Frame_4.png');
@@ -4294,18 +4294,18 @@
 
 /* START SECTIOON GAME RESULTS-*/
 #rec715972103 .t396__artboard {
-     min-height: 1292px;
+     min-height: 1330px;
      height: 100vh;
      background-color: #212121;
  }
 
 #rec715972103 .t396__filter {
-    min-height: 1252px;
+    min-height: 1330px;
     height: 880px;
 }
 
 #rec715972103 .t396__carrier {
-    min-height: 1252px;
+    min-height: 1330px;
     height: 100vh;
     background-position: center center;
     background-attachment: scroll;
@@ -5185,10 +5185,10 @@
 #rec334943901 .tn-elem[data-elem-id="1709743913956"] {
     z-index: 11;
     top: 73px;
-    left: calc(50% - 600px + 0px);
+    left: calc(50%);
     width: 381px;
     height: auto;
-    background-color: #222222;;
+    /*background-color: #222222;;*/
 }
 
 #rec334943901 .tn-elem[data-elem-id="1709743913956"] .tn-atom {
