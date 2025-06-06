@@ -1,6 +1,5 @@
 /*<!-- CSS CARD tarif -->*/
 
-
  #rec716854652 .t396__artboard {
      height: 1030px;
      background-color: #d4b48d;
@@ -116,13 +115,13 @@
 }
 
 #rec716854652 .tn-elem[data-elem-id="1710066673758"] .tn-atom__img {
-    height: 640px;
+    height: 600px;
 }
 #rec716854652 .tn-elem[data-elem-id="1710070081973"] .tn-atom__img {
-    height: 640px;
+    height: 600px;
 }
 #rec716854652 .tn-elem[data-elem-id="1710070127255"] .tn-atom__img {
-    height: 640px;
+    height: 600px;
 }
 
 @media screen and (max-width: 1199px) {
@@ -788,7 +787,7 @@
         top: 126px;
         left: calc(50% - 155px + 0px);
         width: 246px;
-        height: 690px;
+        height: 620px;
     }
 }
 
@@ -929,7 +928,7 @@
 }
 
 #rec716854652 .tn-elem[data-elem-id="1710076541160"] .tn-atom__img.card1{
-    height: 640px;
+    height: 620px;
 }
 
 @media screen and (max-width: 1199px) {
@@ -946,7 +945,7 @@
         top: 620px;
         left: calc(50% - 160px + 37px);
         width: 246px;
-        height: 640px;
+        height: 620px;
     }
 }
 
@@ -1105,7 +1104,7 @@
         top: 1113px;
         left: calc(50% - 160px + 37px);
         width: 245px;
-        height: 670px;
+        height: 620px;
     }
 }
 
@@ -2540,16 +2539,16 @@
 /*<!--  START  SECTION FIRST-->*/
 
  #rec715914302 .t396__artboard {
-     height: 700px;
+     height: 750px;
      background-color: #ffffff;
  }
 
 #rec715914302 .t396__filter {
-    height: 700px;
+    height: 750px;
 }
 
 #rec715914302 .t396__carrier {
-    height: 700px;
+    height: 750px;
     background-position: center center;
     background-attachment: scroll;
     background-image: url('../images/Frame_16.png');
@@ -2837,7 +2836,7 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
     border-radius: 30px;
-    background-color: #ecc595;
+    background-color: var(--color-third);
     background-position: center center;
     border-color: transparent;
     border-style: solid;
@@ -4294,18 +4293,18 @@
 
 /* START SECTIOON GAME RESULTS-*/
 #rec715972103 .t396__artboard {
-     min-height: 1330px;
+     min-height: 1360px;
      height: 100vh;
      background-color: #212121;
  }
 
 #rec715972103 .t396__filter {
-    min-height: 1330px;
+    min-height: 1360px;
     height: 880px;
 }
 
 #rec715972103 .t396__carrier {
-    min-height: 1330px;
+    min-height: 1360px;
     height: 100vh;
     background-position: center center;
     background-attachment: scroll;
@@ -4381,6 +4380,7 @@
 }
 
 #rec715972103 .tn-elem[data-elem-id="1709715030967"] .tn-atom__img {
+    height: 1310px;
 }
 
 @media screen and (max-width: 1199px) {

@@ -36,7 +36,9 @@
     --color-secondary: #ffdcb0;
     --color-offer: #29BD02FD;
     --color-worse: #cb0505;
-    --color-third: #FEBA7B;
+    /*--color-third: #FEBA7B;*/
+    --color-third: #ecc595;
+    --color-dark: #1A1A1A;
     --color-gray-transparent: rgba(128, 128, 128, 0.5);
 }
 /*START PRELOADER */
@@ -112,6 +114,15 @@ div.colorDark,
     color: var(--color-primary); 
     text-align: center;
 }
+.blockimage2 {
+    position: relative;
+}
+.autorNameTitle
+{
+    text-align: left !important;
+    font-size: 50px !important;
+}
+
 .mainText,
 #bodyBlock #allrecords .mainText,
 #bodyBlock #allrecords  .tn-atom.mainText {
@@ -457,7 +468,7 @@ opacity: 0.2;
     min-height: 600px;
     padding: 20px;
     padding-bottom: 0;
-    background-color: var(--color-secondary);
+    background-color: var(--color-dark);
     /*background-image: url("../images/background_sect1.png");*/
     background-size: cover;
 }
@@ -490,7 +501,7 @@ opacity: 0.2;
 }
 .cardAttentionMyPhoto{
     /*background-image: url("../images/myAttention.png");*/
-    width: 350px;
+    width: 450px;
     height: auto;
     position: absolute;
     left: 0;
@@ -516,6 +527,7 @@ opacity: 0.2;
     margin-bottom: 15px;
     padding: 20px;
     border-radius: 20px;
+    z-index: 5;
 }
 .cardAttention .text2{
     color: var(--color-third);
@@ -523,6 +535,7 @@ opacity: 0.2;
     padding: 20px;
     border-radius: 20px;
     margin-left: 100px;
+    z-index: 5;
 }
 .cardAttention .tn-atom .title,
 .ligthSection .tn-atom .cardAttention  .title {
