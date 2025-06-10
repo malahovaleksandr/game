@@ -184,6 +184,11 @@ div.colorDark,
     #bodyBlock #allrecords  .tn-atom.middleText {
         font-size: 22px;
     }
+
+    .autorNameTitle
+    {
+        font-size: 32px !important;
+    }
 }
 .firstSectionTitle{
     font-weight: 700;
