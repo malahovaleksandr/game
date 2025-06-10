@@ -2,7 +2,8 @@
 
  #rec716854652 .t396__artboard {
      height: 1030px;
-     background-color: #d4b48d;
+     /*background-color: #d4b48d;*/
+     background-color: var(--color-dark);
  }
 
 #rec716854652 .t396__filter {
