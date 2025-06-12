@@ -205,6 +205,22 @@ div.colorDark,
 .firstSectionTitle l{
     color: var(--color-secondary);
 }
+.t396 .tn-atom.firstSectionTitleDate,
+.firstSectionTitleDate {
+    font-weight: 700;
+    /*font-family: 'FuturaPT', Arial, sans-serif;*/
+    font-family: 'Evolventa', sans-serif;
+    font-size: 45px;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    color: var(--color-white);
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid var(--color-third);
+    border-radius: 15px;
+    background-color: rgba(254, 186, 123, 0.7);
+    /*width: 100px;*/
+}
 
 .mainImagesecond {
     max-width: 500px;
@@ -498,7 +514,7 @@ opacity: 0.2;
     justify-content: flex-start;
 
     font-weight: 500;
-    font-size: 32px;
+    font-size: 28px;
     font-family: 'FuturaPT', Arial, sans-serif;
     line-height: 1.2;
     color: var(--color-primary);
@@ -553,7 +569,7 @@ opacity: 0.2;
     .cardAttention {
         padding: 10px;
         padding-top: 300px;
-        font-size: 27px;
+        font-size: 22px;
     }
     .cardAttention .title{
         width: 300px;
@@ -784,4 +800,15 @@ opacity: 0.2;
     text-transform: uppercase;
     margin-bottom: 10px;
     width: 100%;
+}
+.cardTarifTitle{
+    font-weight: 700;
+    font-family: 'Evolventa', sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--color-white);
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    z-index: 8;
 }
